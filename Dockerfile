@@ -7,10 +7,10 @@ FROM alpine:latest
 # && cd /v2raybin \
 # && curl -L -H "Cache-Con#trol: no=cache" -o v2ray.zip https://v2ray.com/download/Core_v3.35/v2ray-linux-64.zip \
 # && unzip v2ray.zip \
-# && mv /v2ray/v2ray-v3.35-linux-64/v2ray /v2raybin/ \
-# && mv /v2ray/v2ray-v3.35-linux-64/v2ctl /v2raybin/ \
-# && mv /v2ray/v2ray-v3.35-linux-64/geoip.dat /v2raybin/ \
-# && mv /v2ray/v2ray-v3.35-linux-64/geosite.dat /v2raybin/ \
+# && mv /v2raybin/v2ray-v3.35-linux-64/v2ray /v2raybin/ \
+# && mv /v2raybin/v2ray-v3.35-linux-64/v2ctl /v2raybin/ \
+# && mv /v2raybin/v2ray-v3.35-linux-64/geoip.dat /v2raybin/ \
+# && mv /v2raybin/v2ray-v3.35-linux-64/geosite.dat /v2raybin/ \
 # && chmod +x /v2raybin/v2ray \
 # && rm -rf v2ray.zip \
 # && rm -rf v2ray-linux-64 \
