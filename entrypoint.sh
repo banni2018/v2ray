@@ -15,4 +15,4 @@ mv /v2raybin/v2ray-v3.35-inux-64/geosite.dat \v2raybin .
 
 chmod +x v2ray v2ctl
 sed -i "s/your_uuid/$UUID/g" config.json
-./v2ray
+./v2raybin
