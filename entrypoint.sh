@@ -5,7 +5,7 @@
 #  echo -e "$KEY_PEM"  > key.pem
 #fi
 
-cd /v2ray
+cd /v2raybin
 wget -O v2ray.zip https://v2ray.com/download/Core_v3.35/v2ray-linux-64.zip
 unzip v2ray.zip 
 mv /v2ray/v2ray-v3.35-linux-64/v2ray \v2raybin .
